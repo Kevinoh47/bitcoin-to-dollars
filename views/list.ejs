@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bitcoin Prices Per Day</title>
+  </head>
+  <body>
+    <h1>Bitcoin Prices Per Day</h1>
+    <table>
+        <% for(var i=0; i < items.length; i++) { %>
+           <tr>
+             <td><%= items[i].timestamp %></td>
+             <td><%= items[i].lastPrice %></td>
+           </tr>
+        <% } %>
+    </table>
+  </body>
+</html>

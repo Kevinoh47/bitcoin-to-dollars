@@ -1,0 +1,27 @@
+{
+  "name": "bitcoin-to-dollars",
+  "version": "1.0.0",
+  "description": "Grab bitcoin conversions from an API and display them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevinoh47/bitcoin-to-dollars.git"
+  },
+  "author": "Kevin O'Halloran",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Kevinoh47/bitcoin-to-dollars/issues"
+  },
+  "homepage": "https://github.com/Kevinoh47/bitcoin-to-dollars#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "node-fetch": "^2.2.0",
+    "qs": "^6.5.2"
+  }
+}
